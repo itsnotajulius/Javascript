@@ -1,3 +1,7 @@
+<h1><b>JAVASCRIPT NOTES</b></h1>
+
+<br><br>
+
 Javascipt in HTML:
 
 ```html
@@ -21,21 +25,21 @@ Alert Box:
 
 Value:
 
-    Primitive:
-        const name = variable;          //cant change leave it what it is
-        var name = variable;
-        let name = variable;
-            let name;                   //dont have define types
-            7 types:
-                Number: = #
-                String: = ''
-                Boolean: = true/false
-                Undefined: let name;    //can define more than one at a time
-                Null: = Null
-                Symbol: value that cant change
-                BigInt: Large Ints
-        let name = "";
-            Number(name);               //Change types
+- Primitive:
+  - const name = variable; //cant change leave it what it is
+  - var name = variable;
+  - let name = variable;
+    - let name; //dont have define types
+    - 7 types:
+      - Number: = #
+      - String: = ''
+      - Boolean: = true/false
+      - Undefined: let name; //can define more than one at a time
+      - Null: = Null
+      - Symbol: value that cant change
+      - BigInt: Large Ints
+  - let name = "";
+    - Number(name); //Change types
 
 Literals:
 
