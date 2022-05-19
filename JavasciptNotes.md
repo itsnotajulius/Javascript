@@ -1,6 +1,9 @@
 Javascipt in HTML:
 
-<script src = 'file.js'></script> (this is in the same folder)
+```html
+<script src="file.js"></script>
+(this is in the same folder)
+```
 
 Strict Mode:
 
