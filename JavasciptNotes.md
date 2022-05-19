@@ -1,4 +1,5 @@
 Javascipt in HTML:
+
 <script src = 'file.js'></script> (this is in the same folder)
 
 Strict Mode:
@@ -41,7 +42,6 @@ Literals:
     Template:
         `Text and ${variable}`  //above tab
             ENTER - skip line
-
 
 Operators:
 
@@ -186,9 +186,6 @@ DOM - Document Object Model:
         domElement.appendChild(domNewElement)     //Add another element as child
 
     - document.addEventListener()    //Listens for anything
-
-
-
 
 Math Object:
 
