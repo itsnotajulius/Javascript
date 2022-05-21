@@ -200,3 +200,4 @@ Math Object:
         Methods:
             .random()   //Returns random number between 0 to 1
             .trunc(x)   //Returns only integer
+            .floor(x)   //Dont know yet
