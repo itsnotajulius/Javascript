@@ -84,10 +84,11 @@ Conditionals:
             break;
     }
 
-Console:
+</br>
 
-    console.log('message' or #+#)
-        console.log(# , "" , #) //Can log more agruments
+- Console:
+  - console.log('message' or #+#)
+  - console.log(# , "" , #) //Can log more agruments
 
 Conversion:
 
