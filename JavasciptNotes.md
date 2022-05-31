@@ -168,10 +168,12 @@ While loop:
         break;              //stops loop
         for(){}             //Can make a loop in loop
 
-DOM - Document Object Model:
+---
+
+## DOM - Document Object Model:
 
     Is a WEB API    (Application Programming Interface)
-    - const domElement = document.querySelector('element/.class/#id');  //Calls element
+    const domElement = document.querySelector('element/.class/#id');  //Calls element
         domElement.textContent     //Calls text in element, can assign new text
         domElement.value           //Call value in input element, can assign new
         domElement.style.                   //Calling element style
@@ -202,7 +204,9 @@ DOM - Document Object Model:
 Math Object:
 
 - Math.method
-  Methods:
-  .random() //Returns random number between 0 to 1
-  .trunc(x) //Returns only integer
-  .floor(x) //Dont know yet
+  - Methods:
+    - Random
+      - .random() //Returns random number between 0 to 1
+    - Returns only integer
+      - .trunc(x) //
+    - .floor(x) //Dont know yet
