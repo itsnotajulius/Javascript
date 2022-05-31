@@ -124,10 +124,11 @@ Functions:
 
 Arrays:
 
+```js
     const arrayName = [Value, value];           // Can be any type or combo: str, int, array
     const arrayName = new Array(value,value);   //different way
-        arrayName[#];                           //To call a value at position
-        arrayName[#] = newValue;                //Replaces value at position
+    arrayName[#];                               //To call a value at position
+    arrayName[#] = newValue;                    //Replaces value at position
 
     Methods:
         arrayName.length;               //Length of array
@@ -138,6 +139,7 @@ Arrays:
         arrayName.indexOf(value);       //returns position of value
         arrayName.includes(value);      //returns Boolean if in array
         arrayName.concat(arrayName2);   //Merge arrays
+```
 
 Objects:
 
