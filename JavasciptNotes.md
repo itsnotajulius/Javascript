@@ -176,24 +176,26 @@ Is a WEB API (Application Programming Interface)
 
 - Calls element:
   - const domElement = document.querySelector('element/.class/#id');
-  * domElement.textContent //Calls text in element, can assign new text
-  * domElement.value //Call value in input element, can assign new
-  * domElement.style. //Calling element style
-    _ .backgroundColour = '#colour' //assigning colour in string
-    _ .width = 'size' //assigning width in string
-  * domElement.addEventListener(eventType, listener, options) //Adding listener
-    - Type:
+  - Call Methods:
+    - Calls text
+      - domElement.textContent
+    - domElement.value //Call value in input element, can assign new
+    - domElement.style. //Calling element style
+      _ .backgroundColour = '#colour' //assigning colour in string
+      _ .width = 'size' //assigning width in string
+    - domElement.addEventListener(eventType, listener, options) //Adding listener
+      - Type:
       - 'click' //Click on element
-    - Listener:
+      - Listener:
       - function (){} //Declared in the listener
       - funcName //Declared outside of listener
-  * domElement.appendChild(domNewElement) //Add another element as child
-  * domElement.classList.
-    _ .remove('class/id')//Removes class,Type without the . or #
-    _ .add('class/id') //Add class to id, without the . or #
-    _ .contains('class/id') //Checks for Class/ID
-    _ .toggle('class/id') //adds and removes
-  * domElement.src = "NewScore" //Assigning Src
+    - domElement.appendChild(domNewElement) //Add another element as child
+    - domElement.classList.
+      _ .remove('class/id')//Removes class,Type without the . or #
+      _ .add('class/id') //Add class to id, without the . or #
+      _ .contains('class/id') //Checks for Class/ID
+      _ .toggle('class/id') //adds and removes
+    - domElement.src = "NewScore" //Assigning Src
 - const domElement = document.getElementById('ID') //Can use this for ID
 - const domElement = document.querySelectorAll('element/elementName'); //Calls elemts with same name, kinda like array
 - const domNewElement = document.createElement('typeofelement'); //Creates element
